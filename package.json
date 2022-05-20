@@ -1,0 +1,40 @@
+{
+  "name": "@mathlib/functions",
+  "version": "1.0.0",
+  "description": "Mathematical functions",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "rimraf ./coverage && jest",
+    "build": "npm run lint && rimraf ./dist && tsc",
+    "prepublishOnly": "npm run test && npm run build",
+    "lint": "eslint ."
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathlib-js/functions.git"
+  },
+  "author": "Vivek Dinesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathlib-js/functions/issues"
+  },
+  "homepage": "https://github.com/mathlib-js/functions#readme",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0",
+    "jest": "^28.1.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
+  },
+  "keywords": [
+    "mathlib",
+    "functions",
+    "factorial"
+  ]
+}
