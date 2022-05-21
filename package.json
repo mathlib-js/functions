@@ -35,6 +35,10 @@
   "keywords": [
     "mathlib",
     "functions",
-    "factorial"
+    "factorial",
+    "isEven",
+    "isOdd",
+    "mod",
+    "modulo"
   ]
 }

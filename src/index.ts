@@ -39,6 +39,7 @@ import {
 import factorial from "./factorial";
 import isEven from "./isEven";
 import isOdd from "./isOdd";
+import mod from "./mod";
 
 export {
   // Native Math methods
@@ -81,5 +82,6 @@ export {
 
   factorial,
   isEven,
-  isOdd
+  isOdd,
+  mod
 };

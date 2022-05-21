@@ -23,11 +23,12 @@ console.log(factorial(5)); // 120
 ```
 
 ## Available Functions
-| Function ▼ | Description | Parameters |
-| --- | --- | --- |
-| `factorial(n)` | Factorial of given number | n -> Input number <br> Returns: number |
-| `isEven(n)` | Check if given number is even | n -> Input number <br> Returns: boolean |
-| `isOdd(n)` | Check if given number is odd | n -> Input number <br> Returns: boolean |
+| Function ▼ | Description | Parameters | Returns |
+| --- | --- | --- | --- |
+| `factorial(n)` | Factorial of given number | n -> Input number | number |
+| `isEven(n)` | Check if given number is even | n -> Input number | boolean |
+| `isOdd(n)` | Check if given number is odd | n -> Input number | boolean |
+| `mod(a, n)` | Modulo function. Returns *"a mod n"* | a -> dividend <br> n -> divisor | number |
 | <br> |
 | *Native Math Methods* |
 | `abs` | Returns built-in `Math.abs` |
@@ -65,3 +66,21 @@ console.log(factorial(5)); // 120
 | `tan` | Returns built-in `Math.tan` |
 | `tanh` | Returns built-in `Math.tanh` |
 | `trunc` | Returns built-in `Math.trunc` |
+
+## Examples
+Modulo of negative numbers
+```javascript
+const { mod } = require("@mathlib/functions");
+
+console.log(11 % 7); // 4
+console.log(mod(11, 7)); // 4
+
+console.log(-11 % 7); // -4
+console.log(mod(-11, 7)); // 3
+
+console.log(11 % -7); // 4
+console.log(mod(11, -7)); // -3
+
+console.log(-11 % -7); // -4
+console.log(mod(-11, -7)); // -4
+```
