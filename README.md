@@ -28,7 +28,6 @@ console.log(factorial(5)); // 120
 | `factorial(n)` | Factorial of given number | n -> Input number |
 | <br> |
 | *Native Math Methods* |
-| `f` | Returns built-in `Math.` |
 | `abs` | Returns built-in `Math.abs` |
 | `acos` | Returns built-in `Math.acos` |
 | `acosh` | Returns built-in `Math.acosh` |
