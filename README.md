@@ -25,7 +25,9 @@ console.log(factorial(5)); // 120
 ## Available Functions
 | Function ▼ | Description | Parameters |
 | --- | --- | --- |
-| `factorial(n)` | Factorial of given number | n -> Input number |
+| `factorial(n)` | Factorial of given number | n -> Input number <br> Returns: number |
+| `isEven(n)` | Check if given number is even | n -> Input number <br> Returns: boolean |
+| `isOdd(n)` | Check if given number is odd | n -> Input number <br> Returns: boolean |
 | <br> |
 | *Native Math Methods* |
 | `abs` | Returns built-in `Math.abs` |
